@@ -24,6 +24,8 @@ export default function Nav() {
           </Link>
           <Navbar.Content>
             <Navbar.Link href="operations" variant="highlight-rounded">Operations</Navbar.Link>
+            <Navbar.Link href="contracting" variant="highlight-rounded">Contracting</Navbar.Link>
+            <Navbar.Link href="about-us" variant="highlight-rounded">About Us</Navbar.Link>
           </Navbar.Content>
         </Navbar.Brand>
       </Navbar>

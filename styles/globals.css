@@ -5,10 +5,12 @@ body {
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  height: 100%;
 }
 
 body {
   margin: auto;
+  height: 100%;
 }
 .content{
   max-width:1000px;
@@ -35,4 +37,19 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+footer {  
+  height: 50px;
+  display: 'flex';
+  justify-content: 'center';
+}
+
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: 100px;
+
 }
