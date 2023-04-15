@@ -6,7 +6,10 @@ export default function AvatarProfile({
   src: string
 }) {
   return (
-    <Container>
+    <Container css={{
+      display: 'flex',
+      justifyContent: 'center'
+    }}>
       <Avatar 
         squared 
         bordered

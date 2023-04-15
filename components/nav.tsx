@@ -18,14 +18,17 @@ export default function Nav() {
               fontSize: '$2xl',
               fontWeight: '$bold',
               marginRight: '5px',
-              marginLeft: '6px'
+              marginLeft: '6px',
+              textAlign: 'center'
             }}>
             Gene Construction
           </Link>
-          <Navbar.Content>
-            <Navbar.Link href="operations" variant="highlight-rounded">Operations</Navbar.Link>
-            <Navbar.Link href="contracting" variant="highlight-rounded">Contracting</Navbar.Link>
+          <Navbar.Content css={{
+            textAlign: 'center',
+            justifyContent: 'center'
+          }}>
             <Navbar.Link href="about-us" variant="highlight-rounded">About Us</Navbar.Link>
+            <Navbar.Link href="contracting" variant="highlight-rounded">Contracting</Navbar.Link>
           </Navbar.Content>
         </Navbar.Brand>
       </Navbar>

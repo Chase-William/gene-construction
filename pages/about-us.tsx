@@ -1,15 +1,24 @@
 import Layout from "../components/layout";
 import { Text, Image, Container } from '@nextui-org/react'
 import Spacer from "../components/spacer";
+import ImageText from "../components/image-text";
 
 export default function AboutUs() {
   return (
     <Layout>
       <Container css={{
+        marginTop: '20px',
+        padding: 0
+      }}>
+        <ImageText
+          src='lunch-on-beam.jpg'
+          title='How did we Form?'
+          text='We met through our passion of construction and decided as a group we could build something larger than ourselves; a company, may it out live us and carry on the same passion found when we met.' />
+      </Container>
+
+      <Container css={{
         maxW: '900px'
       }}>
-        <Text h3>How did we Form?</Text>
-        <Text>Our company specializes in construction as our team consists primarily of Civil Engineering majors, therefore, we determined that this type of service would be the best way for our group to leverage our skill set.</Text>
 
         <Spacer />
 
@@ -18,12 +27,7 @@ export default function AboutUs() {
 
         <Image src='company-tree.png' containerCss={{
           maxW: '80%'
-        }}/>
-
-        <Spacer />
-
-        <Text h3>Our Auidences</Text>
-        <Text>Generally, our audience consists of professionals and/or homeowners who are likely to be older adults. However, our projects can be expensive, so clients are likely to have higher socioeconomic status. Additionally, we may also seek to complete projects for businesses or local governments.</Text>
+        }} />
 
       </Container>
     </Layout>
