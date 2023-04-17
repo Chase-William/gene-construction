@@ -71,7 +71,7 @@ export default function Home() {
         <Grid css={{
           marginTop: '100px'
         }}>
-          <AvatarProfile src='?' />
+          <AvatarProfile src='/profiles/john.jpg' />
           <Text h4 className={styles.avatarTitle}>Johnathan Freebern</Text>
           <Text css={{
             textAlign: 'center'
